@@ -1,0 +1,177 @@
+BODY {
+MARGIN: 0px; 
+PADDING: 0px;
+BACKGROUND: black;
+COLOR: white;
+} 
+
+A:link {background: none; color: yellow; text-decoration: none; cursor: pointer;}
+A:visited {background: none; color: yellow; text-decoration: none; cursor: pointer;}
+A:hover {background: none; color: #ff0000; text-decoration: none; cursor: pointer;}
+A:active { background: none; color: #ff0000; background: none; cursor: pointer;}
+
+.Global {
+WIDTH: 100%;
+HEIGHT: 100%;
+}
+
+.Global TD {
+BORDER: 1px solid red;
+VERTICAL-ALIGN: top;
+}
+
+.Header {
+WIDTH: 100%;
+HEIGHT: 100px;
+PADDING: 0px; 
+}
+
+.Header TD {
+BORDER: 0px;
+VERTICAL-ALIGN: top;
+TEXT-ALIGN: left;
+}
+
+.NavBar {
+WIDTH: 100%;
+HEIGHT: 27px;
+}
+
+.NavBar TD {
+BACKGROUND: url("greenline-gradient.gif") repeat;
+COLOR: maroon;
+FONT: normal 16px verdana,sans-serif;
+PADDING: 0px 0px 0px 30px;
+TEXT-ALIGN: left;
+BORDER: 0px;
+VERTICAL-ALIGN: middle;
+}
+
+.NavBarMenu TD {
+BACKGROUND: none;
+COLOR: maroon;
+FONT: bold 16px verdana,sans-serif;
+PADDING: 0px 20px 0px 0px;
+BORDER: 0px;
+VERTICAL-ALIGN: middle;
+}
+
+.Left {
+BACKGROUND-IMAGE: url(left.jpg);
+COLOR: inherit;
+}
+
+.Content {
+BACKGROUND-IMAGE: url(main.jpg);
+COLOR: inherit;
+FONT: 100px verdana,sans-serif;
+TEXT-ALIGN: center;
+}
+
+.Matter {
+COLOR: inherit;
+FONT: 20px verdana,sans-serif;
+TEXT-ALIGN: center;
+}
+
+
+.Right {
+BACKGROUND-IMAGE: url(left.jpg);
+COLOR: inherit;
+FONT: bold 20px verdana,sans-serif;
+}
+
+.BoxStyle {
+WIDTH: 90%;
+MARGIN-TOP: 15px;
+}
+
+.BoxStyle TD {
+COLOR: inherit;
+PADDING: 0px 0px 0px 25px;
+TEXT-ALIGN: center;
+BORDER: 0px;
+}
+
+.Dept{
+FONT: bold 27px Arial, Times New Roman;
+COLOR: red;
+TEXT-ALIGN: center;
+TEXT-DECORATION: underline;
+}
+
+.File{
+FONT: bold 20px Times New Roman, Arial;
+COLOR: red;
+TEXT-ALIGN: center;
+}
+
+
+
+.HeadingStyle {
+COLOR: #ffffff;
+FONT: bold 40px Verdana,sans-serif;
+TEXT-ALIGN: center;
+}
+
+P {
+FONT: 13px arial,sans-serif;
+}
+
+.Padded {
+PADDING: 20px;
+}
+
+.SmallFont {
+FONT: 13px Verdana,sans-serif;
+}
+
+.MedFontBold {
+FONT: bold 15px Verdana,sans-serif;
+}
+
+.SmallFont TD {
+FONT: 13px Verdana,sans-serif;
+}
+
+.MedFontBold TD {
+FONT: bold 15px Verdana,sans-serif;
+}
+
+.Footer {
+BACKGROUND: url('footer.gif') repeat-y #000000;
+COLOR: #ffffff;
+FONT: 13px Verdana,sans-serif;
+HEIGHT: 25px;
+TEXT-ALIGN: center;
+}
+
+.button {
+background-image: url(h.jpg);
+background-repeat: no-repeat;
+height: 35px;
+width: 200px;
+text-align: center;
+FONT: 50px Times New Roman,verdana,sans-serif;
+}
+ 
+.button a{
+background-image: url(b.jpg);
+background-repeat: no-repeat;
+height: 35px;
+width: 200px;
+display: block;
+text-align: center;
+FONT: 30px Times New Roman,verdana,sans-serif;
+}
+ 
+.button a:hover{
+background: none;
+}
+.ldr  TD{
+BORDER: 0px;
+VERTICAL-ALIGN: top;
+text-align: center;
+FONT: 22px Times New Roman,verdana,sans-serif;
+PADDING: 0 20px 0 20px;
+}
