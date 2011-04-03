@@ -1,0 +1,98 @@
+BODY {
+MARGIN:0px;
+PADDING:0px;
+BACKGROUND:white;
+COLOR:black;
+}
+
+.Global {
+WIDTH: 100%;
+HEIGHT: 100%;
+BORDER:0px
+}
+
+.Global TD {
+BORDER: 0px double black;
+VERTICAL-ALIGN: top;
+}
+
+A:link 
+{background: none;
+ color: blue; 
+ text-decoration: none; 
+ cursor: pointer;
+ }
+ 
+A:visited 
+{background: none; 
+color: brown; 
+text-decoration: none; 
+cursor: pointer;
+}
+A:hover 
+{background: none; 
+color: #ff0000; 
+text-decoration: none; 
+cursor: pointer;
+}
+
+A:active 
+{ background: none; 
+color: #ff0000; 
+background: none; 
+cursor: pointer;
+}
+
+.Header{
+WIDTH:100%;
+HEIGHT:100px;
+PADDING:10px;
+}
+
+.Header TD {
+BORDER: 0px;
+VERTICAL-ALIGN: center;
+TEXT-ALIGN: center;
+}
+
+.Left {
+WIDTH:15%;
+COLOR: inherit;
+FONT: 20px verdana,sans-serif;
+}
+
+.Content {
+BORDER: 1px double black
+COLOR: inherit;
+FONT: 15px verdana,sans-serif;
+TEXT-ALIGN: center;
+}
+
+.Matter {
+COLOR: inherit;
+FONT: 15px verdana,sans-serif;
+TEXT-ALIGN: center;
+}
+.Padded {
+PADDING: 20px;
+}
+.Right {
+
+COLOR: inherit;
+FONT: 20px verdana,sans-serif;
+}
+
+P {
+FONT: 15px arial,sans-serif;
+}
+
+.Footer {
+
+COLOR: #ffffff;
+FONT: 13px Verdana,sans-serif;
+HEIGHT: 25px;
+TEXT-ALIGN: center;
+}
+
+
+
